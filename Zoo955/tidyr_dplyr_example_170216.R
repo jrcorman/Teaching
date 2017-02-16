@@ -75,9 +75,7 @@ dt2$sampledate<-as.Date(dt2$sampledate,format=tmpDateFormat)
 rm(tmpDateFormat) 
 str(dt2)
 
-# Step 2. 
-
-# Step 3. Analyze data
+# Step 3. Analyze data ####
 
 # Calculate mean and standard deviation of selected elements and ratios 
 # for each lake across all sampling dates
